@@ -20,6 +20,7 @@ Then, we add a CNOT gate to the two qubits, with the big plus-in-a-dot on the q1
 Finally, we add measurement gates to the q0 and q1 lines.
 And success!
 You have created your first quantum circuit: a simple superposition!  
+  
 Now we'll move on to creating a Bell state, which is slightly harder.
 
 ### Reference Materials: Qiskit
