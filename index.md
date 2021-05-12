@@ -1,6 +1,6 @@
-Introduction to Quantum Operations
-==================================
-## What are Quantum Operations?
+***🦈 Introduction to Quantum Operations🦈!***
+================================================
+## What are Quantum Operations? 
 Quantum Operations are operations used to manipulate quantum bits (or [qubits](https://en.wikipedia.org/wiki/Qubit), for short) in quantum circuits.
 They include quantum gates (think of the classical **AND, OR, NOT** gates), as well as some operations that are not quantum gates, but still manipulate qubits.
 A quantum gate, by the way, is just a basic circuit (i.e electrical pulses)operating on a small number of qubits.
