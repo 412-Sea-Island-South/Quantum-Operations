@@ -11,8 +11,8 @@ You can read more about Quantum Operations in [this article](https://www.medium.
 ## Applying Quantum Operations: Creating a Superposition
 We'll start off with the most basic thing possible, which is to create a simple superposition of two qubits.
 We do this using the Hadamard gate.
-It rotates the states |0⟩ and |1⟩ to the states |+⟩ and |-⟩, respectively.  
-Lets see how it works!  
+It rotates the states |0⟩ and |1⟩ to the states |+⟩ and |-⟩, respectively. Lets see how it works!  
+  
 We'll head on over to [IBM Quantum Experience](https://quantum-computing.ibm.com), and open up the Quantum Composer.
 First, we'll remove the extraneous qubits \(if there are any\), ad we'll be left with two qubits, q0 and q1.
 We start by dragging-and-dropping the orange-ish Hadamard gate icon and putting it onto the q0 line.
