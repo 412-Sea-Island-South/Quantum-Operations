@@ -35,5 +35,5 @@ circuit.cx(qreg_q[0]. qreg_q[1])
 ```
 
 ### Reference Materials: Gallery
-As you can see here, we do indeed have a perfect superposition of two qubits:
+As you can see here, we do indeed have a perfect superposition of two qubits:  
 ![Superposition](https://user-images.githubusercontent.com/81530826/118022442-392d0600-b311-11eb-81a8-0ec19d73cbe6.png "A Perfect Superposition")
