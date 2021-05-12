@@ -6,7 +6,7 @@ They include quantum gates (think of the classical **AND, OR, NOT** gates), as w
 A quantum gate, by the way, is just a basic circuit (i.e electrical pulses)operating on a small number of qubits.
 They are the building blocks of quantum circuits, and can be put together like LEGOs.
 There are different types of quantum gates, such as Clifford gates, and diagonal gates.
-You can read more about Quantum Operations in [my article](https://www.medium.com/swlh/introduction-to-quantum-operations-e797fae3fab).
+You can read more about Quantum Operations in [this article](https://www.medium.com/swlh/introduction-to-quantum-operations-e797fae3fab).
 
 ## Applying Quantum Operations
 ### Creating a Superposition
@@ -20,10 +20,10 @@ We'll head on over to [IBM Quantum Experience](https://quantum-computing.ibm.com
 First, we'll remove the extraneous qubits \(if there are any\), ad we'll be left with two qubits, q0 and q1.
 We start by dragging-and-dropping the orange-ish Hadamard gate icon and putting it onto the q0 line.
 Then, we add a CNOT gate to the two qubits, with the big plus-in-a-dot on the q1 line and the small dot on the q0 line.
-Finally, we add measurement gates to the q0 and q1 lines.  
-Success!
+Finally, we add measurement gates to the q0 and q1 lines.
+And success!
 You have created your first quantum circuit: a simple superposition!  
-We'll move on to creating a Bell state, which is slightly harder.
+Now we'll move on to creating a Bell state, which is slightly harder.
 
 #### Qiskit Code
 This is the Qiskit code which you can open in the IBM Quantum Lab.
@@ -38,3 +38,4 @@ circuit.cx(qreg_q[0]. qreg_q[1])
 ```
 
 #### Measurement Probabilities
+As you can see here, we do indeed have a perfect superposition of two qubits:
