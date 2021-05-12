@@ -21,7 +21,7 @@ Finally, we add measurement gates to the q0 and q1 lines.
 And success!
 You have created your first quantum circuit: a simple superposition!  
   
-Now we'll move on to creating a Bell state, which is slightly harder.
+Now we'll move on to creating the GHZ state, which is slightly harder.
 
 ### Reference Materials: Qiskit
 This is the Qiskit code which you can open in the IBM Quantum Lab.
@@ -43,3 +43,4 @@ circuit.cx(qreg_q[0]. qreg_q[1])
   </p>
 </html>
 
+## Applying Quantum Operations: The GHZ State
