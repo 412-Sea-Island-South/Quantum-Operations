@@ -36,7 +36,7 @@ circuit.cx(qreg_q[0]. qreg_q[1])
 
 ### Reference Materials: Gallery
 <html>
-  <h4 align="center">A Perfect Superposition</h4>
+  <h4 align="center">A Perfect Superposition of Qubits</h4>
   <p align="center">
     <img src="https://user-images.githubusercontent.com/81530826/118022442-392d0600-b311-11eb-81a8-0ec19d73cbe6.png">
   </p>
