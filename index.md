@@ -39,11 +39,11 @@ circuit.cx(qreg_q[0]. qreg_q[1])
 <html>
   <h4 align="center">A Perfect Superposition of Qubits</h4>
   <p align="center">
-    <img src="https://user-images.githubusercontent.com/81530826/118022442-392d0600-b311-11eb-81a8-0ec19d73cbe6.png" width="420" height="200">
+    <img src="https://user-images.githubusercontent.com/81530826/118022442-392d0600-b311-11eb-81a8-0ec19d73cbe6.png">
   </p>
   <h4 align="center">A Superposition Circuit</h4>
   <p align="center">
-    <img src="https://user-images.githubusercontent.com/81530826/118163642-1107da80-b3d7-11eb-8ccb-bc7939b48eab.png" width="420" height="200">
+    <img src="https://user-images.githubusercontent.com/81530826/118163642-1107da80-b3d7-11eb-8ccb-bc7939b48eab.png">
   </p>
 </html>
 
@@ -61,7 +61,7 @@ Once again, double click the gate icon to change the parameters.
 Theta, Phi, Lambda, and Gamma should all be set to pi/2.
 In addition, for the Qubit Connections, make sure q0 is connected to "c" and q1 is connect to "t".
 Then we'll add a CNOT between q2 and q1, followed by a CNOT between q1 and q0.
-Finally, we will add a NOT gate to q0.  
+Finally, we will add a NOT gate to q0.
 And that completes the W state!
 If you want, you can add measurement gates to all the qubits;
 I didn't do this in order to show the superpositions.
