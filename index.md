@@ -1,4 +1,4 @@
-***🦈 Introduction to Quantum Operations🦈!***
+***🦈 Introduction to Quantum Operations!🦈***
 ================================================
 ## What are Quantum Operations? 
 Quantum Operations are operations used to manipulate quantum bits (or [qubits](https://en.wikipedia.org/wiki/Qubit), for short) in quantum circuits.
@@ -40,6 +40,10 @@ circuit.cx(qreg_q[0]. qreg_q[1])
   <h4 align="center">A Perfect Superposition of Qubits</h4>
   <p align="center">
     <img src="https://user-images.githubusercontent.com/81530826/118022442-392d0600-b311-11eb-81a8-0ec19d73cbe6.png">
+  </p>
+  <h4 align="center">A Superposition Circuit</h4>
+  <p>
+    <img src="https://user-images.githubusercontent.com/81530826/118163642-1107da80-b3d7-11eb-8ccb-bc7939b48eab.png">
   </p>
 </html>
 
