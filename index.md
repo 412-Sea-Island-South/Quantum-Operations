@@ -65,3 +65,16 @@ Finally, we will add a NOT gate to q0.
 And that completes the W state!
 If you want, you can add measurement gates to all the qubits;
 I didn't do this in order to show the superpositions.
+
+### Reference Materials: Qiskit Code
+### Reference Materials: Gallery
+<html>
+  <h4 align="center">A Superposition of 3 Qubits, the W State</h4>
+  <p align="center">
+    <img src="https://user-images.githubusercontent.com/81530826/118166798-ca1be400-b3da-11eb-940d-e9ba6862e5e7.png">
+  </p>
+  <h4 align="center">The W State Circuit</h4>
+  <p align="center">
+    <img src="https://user-images.githubusercontent.com/81530826/118166947-fb94af80-b3da-11eb-86eb-82bbafcdfa21.png">
+  </p>
+</html>
