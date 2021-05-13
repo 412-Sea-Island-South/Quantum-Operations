@@ -21,7 +21,7 @@ Finally, we add measurement gates to the q0 and q1 lines.
 And success!
 You have created your first quantum circuit: a simple superposition!  
   
-Now we'll move on to creating the GHZ state, which is slightly harder.
+Now we'll move on to creating the W state, which is slightly harder.
 
 ### Reference Materials: Qiskit
 This is the Qiskit code which you can open in the IBM Quantum Lab.
@@ -47,4 +47,21 @@ circuit.cx(qreg_q[0]. qreg_q[1])
   </p>
 </html>
 
-## Applying Quantum Operations: The GHZ State
+## Applying Quantum Operations: The W State
+Next, we will create the W state, which involves three qubits this time, as well s some new quantum operations. Namely, the NOT, RY, and U gates. In addition, we will also be using the "reset" gate.
+W states are a way to entangle three qubits (basically superposition), just like the the superposition we created above.  
+
+Once again, we go to [IBM Quantum](https://quantum-computing.ibm.com) and open up the Circuit Composer.
+We'll start by resetting all the qubits to the |0⟩ state, which is done by applying the reset operation to each qubit.
+Next, we'll apply the RY gate to the first qubit (which is q0).
+The value of theta should be 1.9106332362490184.
+Double click on the RY icon to change the value of theta.
+After that, we'll apply the U gate to the second qubit (q1).
+Once again, double click the gate icon to change the parameters.
+Theta, Phi, Lambda, and Gamma should all be set to pi/2.
+In addition, for the Qubit Connections, make sure q0 is connected to "c" and q1 is connect to "t".
+Then we'll add a CNOT between q2 and q1, followed by a CNOT between q1 and q0.
+Finally, we will add a NOT gate to q0.  
+And that completes the W state!
+If you want, you can add measurement gates to all the qubits;
+I didn't do this in order to show the superpositions.
