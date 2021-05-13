@@ -39,11 +39,11 @@ circuit.cx(qreg_q[0]. qreg_q[1])
 <html>
   <h4 align="center">A Perfect Superposition of Qubits</h4>
   <p align="center">
-    <img src="https://user-images.githubusercontent.com/81530826/118022442-392d0600-b311-11eb-81a8-0ec19d73cbe6.png" width="666" height="420">
+    <img src="https://user-images.githubusercontent.com/81530826/118022442-392d0600-b311-11eb-81a8-0ec19d73cbe6.png" width="420" height="200">
   </p>
   <h4 align="center">A Superposition Circuit</h4>
   <p align="center">
-    <img src="https://user-images.githubusercontent.com/81530826/118163642-1107da80-b3d7-11eb-8ccb-bc7939b48eab.png" width="666" height="420">
+    <img src="https://user-images.githubusercontent.com/81530826/118163642-1107da80-b3d7-11eb-8ccb-bc7939b48eab.png" width="420" height="200">
   </p>
 </html>
 
